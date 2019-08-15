@@ -1,12 +1,7 @@
 ---
 driver:
-  name: ec2
-  region: eu-west-1
-  require_chef_omnibus: true
-  instance_type: t2.micro
-  subnet_id: subnet-0e9b138ff1ce18f2
-  aws_ssh_key_id: DevOpsStudents
-  associate_public_id: true
+  name: vagrant
+
 ## The forwarded_port port feature lets you connect to ports on the VM guest via
 ## localhost on the host.
 ## see also: https://www.vagrantup.com/docs/networking/forwarded_ports.html
