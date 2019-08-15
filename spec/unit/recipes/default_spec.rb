@@ -21,7 +21,6 @@ describe 'node::default' do
     end
     # for a complete list of available platforms and versions see:
     # https://github.com/chefspec/fauxhai/blob/master/PLATFORMS.md
-    platform 'ubuntu', '16.04'
 
     it 'converges successfully' do
       expect{ chef_run }.to_not raise_error
